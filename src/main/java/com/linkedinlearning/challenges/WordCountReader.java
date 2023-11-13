@@ -48,7 +48,6 @@ public class WordCountReader {
         for (int i = 0; i < content.length(); i++) {
             if (content.charAt(i) != ' ') {
                 characterWithoutSpacesCounter++;
-                System.out.println("HURENSOHN");
             }
         }
         return characterWithoutSpacesCounter - 1;
